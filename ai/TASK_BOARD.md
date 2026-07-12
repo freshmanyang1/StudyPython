@@ -100,6 +100,54 @@
 
 **备注**：协作资产任务，已完成自检
 
+### T-20260712-006 更新 COURSE_INDEX.md 添加功能使用说明
+
+| 字段 | 值 |
+|---|---|
+| 状态 | DONE |
+| Owner | aiskill |
+| 主执行 Agent | claude |
+| 模块 | 协作资产 |
+| 类型 | 协作资产任务 |
+| 优先级 | P1 |
+| 依赖 | 无 |
+| 依赖门禁 | 无 |
+| 目标 Git 根目录 | d:\Dev\StudyPython |
+| 允许验证命令 | 静态验证 |
+| 任务说明 | `.ai/tasks/T-20260712-006/task.md` |
+| 交接文件 | `.ai/tasks/T-20260712-006/handoff.md` |
+| 有效代码行 | 0（协作资产） |
+
+**目标摘要**：更新 COURSE_INDEX.md，添加"上传更新"和"重新学习"功能的使用说明
+
+**范围摘要**：更新 `python-course/COURSE_INDEX.md`，添加功能使用说明
+
+**备注**：协作资产任务，已完成自检
+
+### T-20260712-007 创建 README.md 并分离功能说明
+
+| 字段 | 值 |
+|---|---|
+| 状态 | DONE |
+| Owner | aiskill |
+| 主执行 Agent | claude |
+| 模块 | 协作资产 |
+| 类型 | 协作资产任务 |
+| 优先级 | P1 |
+| 依赖 | 无 |
+| 依赖门禁 | 无 |
+| 目标 Git 根目录 | d:\Dev\StudyPython |
+| 允许验证命令 | 静态验证 |
+| 任务说明 | `.ai/tasks/T-20260712-007/task.md` |
+| 交接文件 | `.ai/tasks/T-20260712-007/handoff.md` |
+| 有效代码行 | 0（协作资产） |
+
+**目标摘要**：创建 README.md，将功能使用说明从 COURSE_INDEX.md 分离出来
+
+**范围摘要**：创建 `python-course/README.md`，更新 `python-course/COURSE_INDEX.md`
+
+**备注**：协作资产任务，已完成自检
+
 ## 任务模板
 
 ```markdown
