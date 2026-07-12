@@ -60,4 +60,4 @@
 3. 完成 homework.py 中的作业
 4. 输入 `python，提交作业` 提交并获取评分
 
-> 更多功能说明请查看 [README.md](README.md)
+> 更多功能说明请查看 [README.md](../README.md)

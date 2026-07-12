@@ -148,6 +148,30 @@
 
 **备注**：协作资产任务，已完成自检
 
+### T-20260712-008 移动 README.md 到项目根目录
+
+| 字段 | 值 |
+|---|---|
+| 状态 | DONE |
+| Owner | aiskill |
+| 主执行 Agent | claude |
+| 模块 | 协作资产 |
+| 类型 | 协作资产任务 |
+| 优先级 | P1 |
+| 依赖 | 无 |
+| 依赖门禁 | 无 |
+| 目标 Git 根目录 | d:\Dev\StudyPython |
+| 允许验证命令 | 静态验证 |
+| 任务说明 | `.ai/tasks/T-20260712-008/task.md` |
+| 交接文件 | `.ai/tasks/T-20260712-008/handoff.md` |
+| 有效代码行 | 0（协作资产） |
+
+**目标摘要**：将 README.md 从 python-course/ 目录移动到项目根目录
+
+**范围摘要**：移动 `python-course/README.md` 到 `README.md`，更新链接
+
+**备注**：协作资产任务，已完成自检
+
 ## 任务模板
 
 ```markdown
