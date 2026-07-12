@@ -1,0 +1,44 @@
+# -*- coding: utf-8 -*-
+"""
+课程：文件读写
+作业要求：
+1. 编写一个函数 write_file(filename, content)，将内容写入文件
+2. 编写一个函数 read_file(filename)，读取文件内容
+3. 编写一个函数 count_lines(filename)，统计文件行数
+
+完成后输入 `python，提交作业` 提交。
+"""
+
+import os
+
+# 作业1：写入文件
+# 请在此处填写代码
+def write_file(filename, content):
+    pass
+
+# 作业2：读取文件
+# 请在此处填写代码
+def read_file(filename):
+    pass
+
+# 作业3：统计行数
+# 请在此处填写代码
+def count_lines(filename):
+    pass
+
+# 测试代码（不要修改）
+if __name__ == "__main__":
+    print("测试作业1 - 写入文件:")
+    write_file('test_homework.txt', 'Hello, Python!')
+    print("文件写入完成")
+
+    print("\n测试作业2 - 读取文件:")
+    content = read_file('test_homework.txt')
+    print(f"内容: {content}")
+
+    print("\n测试作业3 - 统计行数:")
+    lines = count_lines('test_homework.txt')
+    print(f"行数: {lines}")
+
+    # 清理
+    os.remove('test_homework.txt')
