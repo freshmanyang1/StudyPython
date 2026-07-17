@@ -6,9 +6,9 @@
 
 # 1. 列表的创建
 print("=== 列表的创建 ===")
-fruits = ["apple", "banana", "cherry"]
-numbers = [1, 2, 3, 4, 5]
-mixed = [1, "hello", 3.14, True]
+fruits = ["apple", "banana", "cherry"] #字符串数组
+numbers = [1, 2, 3, 4, 5]  #整数数组
+mixed = [1, "hello", 3.14, True] #混合类型数组
 
 print(f"fruits = {fruits}")
 print(f"numbers = {numbers}")

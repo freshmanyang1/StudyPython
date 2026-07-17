@@ -14,26 +14,40 @@
 # 作业1：定义字符串变量 full_name
 # 请在此处填写代码
 def homework1():
+    full_name = "Ethan"
+    print(full_name)
     pass
 
 # 作业2：转换为大写
 # 请在此处填写代码
 def homework2():
+    full_name = "Ethan"
+    upper_name = full_name.upper()
+    print(upper_name)
     pass
 
 # 作业3：替换空格为下划线
 # 请在此处填写代码
 def homework3():
+    full_name = "Ethan"
+    replaced_name = full_name.replace(" ", "_")
+    print(replaced_name)
     pass
 
 # 作业4：获取第一个字符
 # 请在此处填写代码
 def homework4():
+    full_name = "Ethan"
+    first_char = full_name[0]
+    print(first_char)
     pass
 
 # 作业5：格式化输出
 # 请在此处填写代码
 def homework5():
+    name = "Ethan"
+    age = 25
+    print(f"name:{name}, age:{age}")
     pass
 
 # 测试代码（不要修改）

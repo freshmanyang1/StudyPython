@@ -14,26 +14,37 @@
 # 作业1：定义整数变量 age
 # 请在此处填写代码
 def homework1():
+    age = 25
+    print(f"age = {age}")
     pass
 
 # 作业2：定义浮点数变量 height
 # 请在此处填写代码
 def homework2():
+    height: float = 1.80
+    print(f"height = {height}")
     pass
 
 # 作业3：定义字符串变量 name
 # 请在此处填写代码
 def homework3():
+    name = "Ethan"
+    print(f"name = {name}")
     pass
 
 # 作业4：定义布尔值变量 is_student
 # 请在此处填写代码
 def homework4():
+    is_student = True
+    print(f"is_student = {is_student}")
     pass
 
 # 作业5：类型转换和拼接
 # 请在此处填写代码
 def homework5():
+    age = 25
+    age_str = str(age) + "岁"
+    print(f"age_str = {age_str}")
     pass
 
 # 测试代码（不要修改）

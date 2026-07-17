@@ -13,21 +13,25 @@
 # 作业1：输出你的名字
 # 请在此处填写代码
 def homework1():
+    print("Ethan")
     pass
 
 # 作业2：输出你的年龄
 # 请在此处填写代码
 def homework2():
+    print("25")
     pass
 
 # 作业3：输出一句你喜欢的话
 # 请在此处填写代码
 def homework3():
+    print("学无止境")
     pass
 
 # 作业4：输出一个简单的计算结果（例如：10 + 20）
 # 请在此处填写代码
 def homework4():
+    print("30+20= ", 30 + 20)
     pass
 
 # 测试代码（不要修改）

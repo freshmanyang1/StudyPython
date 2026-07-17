@@ -13,21 +13,30 @@
 # 作业1：定义变量 student_name
 # 请在此处填写代码
 def homework1():
+    student_name = "Ethan"
+    print(f"姓名：{student_name}")
     pass
 
 # 作业2：定义常量 MAX_SCORE
 # 请在此处填写代码
 def homework2():
+    MAX_SCORE = 100
+    print(f"最大分数:{MAX_SCORE}")
     pass
 
 # 作业3：定义函数 greet()
 # 请在此处填写代码
 def homework3():
+    def greet():
+        return "你好！"
+    print(greet())
     pass
 
 # 作业4：添加注释
 # 请在此处添加一个函数，包含文档字符串说明
-
+# 多行语句
+# total = 1 + 2 + 3 + \
+#       4 + 5 + 6
 # 测试代码（不要修改）
 if __name__ == "__main__":
     print("测试作业1 - 定义变量:")

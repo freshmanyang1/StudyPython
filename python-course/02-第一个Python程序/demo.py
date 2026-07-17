@@ -43,18 +43,18 @@ print("单行注释示例")  # 这也是单行注释
 """
 
 # 10. if __name__ == "__main__" 示例
-def greet():
-    """打招呼函数"""
-    print("Hello from greet()!")
+### def greet():
+    # """打招呼函数"""
+    # print("Hello from greet()!")
 
-def add(a, b):
-    """加法函数"""
-    return a + b
+### def add(a, b):
+    #"""加法函数"""
+    # return a + b
 
 # 只有直接执行此文件时才会运行
-if __name__ == "__main__":
-    print("=== if __name__ == '__main__' 示例 ===")
-    greet()
-    result = add(3, 5)
-    print(f"3 + 5 = {result}")
-    print("这段代码只在直接执行此文件时运行")
+###if __name__ == "__main__":
+    #print("=== if __name__ == '__main__' 示例 ===")
+    # greet(
+    # result = add(3, 5)
+    # print(f"3 + 5 = {result}")
+    # print("这段代码只在直接执行此文件时运行")
