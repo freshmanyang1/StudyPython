@@ -31,11 +31,11 @@ else:
 
 ```python
 x = 0
-if x > 0:
-    print("x 是正数")
-elif x < 0:
+if x > 0:                                       # 如果
+    print("x 是正数")               
+elif x < 0:                                    #否则如果  语法可以出现多个elif
     print("x 是负数")
-else:
+else:                                           #否则
     print("x 是零")
 ```
 

@@ -13,21 +13,62 @@
 # 作业1：创建字典
 # 请在此处填写代码
 def homework1():
+    student = {
+        "name": "Ethan",
+        "age": 30,
+        "city": "Beijing"}   #字典里需要使用大括号{}
+    print(f"student = {student}")
     pass
 
 # 作业2：添加键值对
 # 请在此处填写代码
 def homework2():
+    student = {
+        "name": "Ethan",
+        "age": 30,
+        "city": "Beijing"
+    }
+    student["job"] = "Engineer"
+    student["age"] = 28
+    print(f"student = {student}")
+    
     pass
 
 # 作业3：删除键值对
 # 请在此处填写代码
 def homework3():
+    student = {                     
+        "name": "Ethan",
+        "age": 30,
+        "city": "Beijing",
+        "job": "Engineer"
+    }
+    del student["job"]
+    print(f"student = {student}")
+    student.pop ("name")
+    print(f"student = {student}")
     pass
 
 # 作业4：字典推导式
 # 请在此处填写代码
 def homework4():
+    squares = {}              
+    for i in range(10):
+        squares[i] = i ** 2
+    print(f"squares = {squares}")
+
+    squares = { i: i ** 2 for i in range(10)}
+    print(f"squares = {squares}")
+
+    even_squares = {                    #这种是拆开写法，函数定义
+        x : x ** 2                          # x是键，x ** 2是值 x的平方
+        for x in range(10)                  # for循环遍历0-9   10个数
+        if x % 2 == 0                       # 只取偶数
+    }
+    print(f"even_squares = {even_squares}")
+    
+    even_squares = { x : x ** 2 for x in range(10) if x % 2 ==0}         #这种是合并写法，函数定义（x为键，for循环遍历，取模运算，取偶数）
+    print(f"even_squares = {even_squares}")
     pass
 
 # 测试代码（不要修改）

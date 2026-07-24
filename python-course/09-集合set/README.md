@@ -34,6 +34,9 @@ fruits.add("grape")
 fruits.remove("banana")     # 删除指定元素（不存在会报错）
 fruits.discard("xxx")       # 删除指定元素（不存在不会报错）
 fruits.pop()                # 删除任意元素
+fruits.clear()                     # 清空所有元素
+fruits.difference_update({...})    # 一次删除多个元素
+del fruits                         # 删除整个集合变量
 ```
 
 ### 3. 集合的运算

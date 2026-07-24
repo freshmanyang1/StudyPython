@@ -13,21 +13,38 @@
 # 作业1：字符串转整数
 # 请在此处填写代码
 def homework1():
+    num = int("123")
+    print(f"type(num) = {type(num)}")
+
     pass
 
 # 作业2：整数转字符串并拼接
 # 请在此处填写代码
 def homework2():
+    num1 = str(456)
+    num2 = str("元")
+    print(f"num1 + num2 = {num1 + num2}")
+
     pass
 
 # 作业3：字符串转浮点数
 # 请在此处填写代码
 def homework3():
+    num1 = float("3.14")
+    print(f"num1 = {num1}")
+
     pass
 
 # 作业4：列表转字符串
 # 请在此处填写代码
 def homework4():
+    word = ["hello", "world"]       
+    x = ",".join(word)              #这是字符串的 join() 方法，用来把多个字符串连接成一个字符串。
+    print(f"x = {x}")
+
+    a = "space university"
+    y = a.split()                     #这是字符串的 split() 方法，用来把一个字符串分割成多个部分，并返回一个列表
+    print(f"y = {y}")
     pass
 
 # 测试代码（不要修改）

@@ -42,8 +42,8 @@ bool("hello") # True
 ```python
 x = 10
 print(type(x))           # <class 'int'>
-print(isinstance(x, int)) # True
-
+print(isinstance(x, int)) # True            #isinstance() 用来判断：一个值是否属于指定的数据类型
+                                            #isinstance(值, 数据类型)
 y = "hello"
 print(type(y))           # <class 'str'>
 print(isinstance(y, str)) # True

@@ -12,16 +12,39 @@
 # 作业1：成绩等级
 # 请在此处填写代码
 def grade(score):
+    x = score
+    if x >= 90 and x <= 100:
+        return "A"              #语法结束不需要以；结束    函数要通过return返回值，不能用print返回
+    elif x >= 80 and x < 90:
+        return "B"
+    elif x >= 70 and x < 80:
+        return "C"
+    elif x >= 60 and x < 70:
+        return "D"
+    else :                      # else后面不需要写条件
+        return "F"
     pass
 
 # 作业2：判断偶数
 # 请在此处填写代码
 def is_even(num):
+    if num % 2 ==0:
+        return True
+    else:
+        return False
     pass
 
 # 作业3：判断闰年
 # 请在此处填写代码
 def leap_year(year):
+    if year % 400 == 0:
+        return True
+    elif year % 100 ==0:
+        return False
+    elif year % 4 == 0:
+        return True
+    else:
+        return False
     pass
 
 # 测试代码（不要修改）
